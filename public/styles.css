@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    background-color: #2a38965c;
+}
+
+.header {
+    text-align: right;
+    background-color: #7410f7;
+    padding: 2%;
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header ul li {
+    font-weight: 900;
+    text-align: right;
+    color: white;
+    display: inline;
+    margin: 0 4%;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+.avatar {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 4%;
+    top: 15px;
+}
+
+.content {
+    text-align: center;
+    width: 100%;
+}
+
+.system {
+    height: 83.5vh;
+    width: 70%;
+}
+
+.greeting {
+    background-color: #7510f7;
+    text-align: center;
+    padding: 2%;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+}
+
+.greeting h1 {
+    font-size: 30px;
+    margin-bottom: 3px;
+    color: white;
+    font-weight: 900;
+}
+
+.greeting p {
+    font-size: 30px;
+    margin: 1px;
+    color: white;
+    font-weight: 900;
+}
+
+.greeting img {
+    height: 150px;
+    width: 150px;
+}
+
+.head {
+    font-size: 300%;
+    color: #7510f7;
+    text-align: center;
+    background-color: white;
+    width: 20%;
+    margin: 45px auto 0 auto;
+    border: #2a3896c8 solid 4px;
+    border-radius: 20px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+}
+
+.skills {
+    border: #2a3896c8 solid 4px;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto 0 auto;
+}
+
+.skill {
+    width: 90%;
+    margin: 20px auto 20px auto;
+}
+
+.skill-img {
+    transition: transform 0.5s ease;
+    width: 40%;
+}
+
+.skill-img:hover {
+    transform: scale(1.2);
+}
+
+.skill h1 {
+    font-size: 250%;
+    color: #7510f7;
+    font-family: "Protest Strike";
+    margin: 30%px;
+}
+
+#gradient {
+    background: linear-gradient(to left, #f87537, #7510f7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #7410f7;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer li {
+    font-weight: 900;
+    color: white;
+    display: inline;
+    margin: 0 2px;
+}
+
+.icons {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.icons ul {
+    padding: 0;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    font-weight: 900;
+    color: white;
+    display: inline;
+    margin: 0 10%;
+}
+
+#home {
+    scroll-behavior: smooth;
+}
+
+#skills {
+    scroll-behavior: smooth;
+}
+
+#contact {
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width:830px){
+    .avatar {
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width:680px){
+    .avatar {
+        top: 6px;
+    }
+}
+
+@media only screen and (max-width:530px){
+    .avatar {
+        top: 5px;
+    }
+    .skills h1, .head {
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width:494px){
+    .icon {
+        margin: 0 4%;
+    }
+    .system {
+        height: 55vh;
+    }
+    .avatar {
+        top: 3px;
+    }
+}
+
+@media only screen and (max-width:402px){
+    
+    .skills h1, .head {
+        font-size: 150%;
+    }
+    .system {
+        height: 53vh;
+    }
+    .avatar {
+        height: 60px;
+        width: 60px;
+    }
+    .footer {
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width:330px){
+    .header ul li {
+        font-size: 10px;
+    }
+    .avatar {
+        height: 50px;
+        width: 50px;
+    }
+    .system {
+        height: 40vh;
+    }
+}
